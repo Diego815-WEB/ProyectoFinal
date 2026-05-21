@@ -111,9 +111,7 @@ public abstract class Persona implements SerVivo {
                 fechaNacimiento.getAnho();
     }
 
-	public void mostrarEstadistica() {
-        System.out.println("Sin datos");
-	}
+	public abstract void mostrarEstadistica() ;
 
 	public void cerrarFlujop() {
 
